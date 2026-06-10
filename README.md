@@ -17,5 +17,6 @@ Can a locally run Visula language model recover from task disrupting situations 
 - USB connection between computer and Arduino
 - Laptop running Python (OpenCV + Moondream)
 - PCA9685 16-Channel PWM Servo Driver
+- UBEC 
 
 ## How to Run the Code
