@@ -1,1 +1,1 @@
-# Adaptability of Vision-Language Models in Robotic Control Systems
+# Adaptability of VLMs in Robotic Control Systems
