@@ -9,7 +9,7 @@ import cv2
 
 from detection import classify_grid, detect_any
 
-CAM_INDEX = 0  # confirm with `ls /dev/video*` or trial and error
+CAM_INDEX = 0  
 
 
 def main():
