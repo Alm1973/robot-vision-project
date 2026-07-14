@@ -31,7 +31,7 @@
 - Pros: rich perception, natural fit for anomaly detection, no Pi needed.
 - Cons: doesn't run at usable speed on a Raspberry Pi 5 needs laptop or cloud compute.
 
-**Decision:** The project moved forward with a **VLM-based approach** (Architecture B direction), ultimately running **Qwen2.5-VL:3B via Ollama** on the device locally instead of using cloud API, using a USB webcam (Logitech C270, 720p) and Arduino to actuate. (As a side note, the current direction of this project in my memory now involves moving the reasoning model to a Raspberry Pi 5.)
+**Decision:** The project moved forward with a **VLM-based approach** (Architecture B direction), ultimately running **Qwen2.5-VL:3B via Ollama** on the device locally instead of using cloud API, using a USB webcam (Logitech C270, 720p) and Arduino to actuate. 
 
 ### 2.2 Final hybrid pipeline
 
