@@ -35,11 +35,7 @@ The literature above describes *other* models at *other* scales; it doesn't subs
 3. Compute simple accuracy (correct / total) per question type.
 
 ```python
-# code/hardware_tests/moondream_spatial_probe.py
-#
-# Assignment 3(b): probe Moondream's raw spatial reasoning ability,
-# independent of the OpenCV pipeline, so you know how much you can
-# safely offload to it.
+
 
 import ollama
 
