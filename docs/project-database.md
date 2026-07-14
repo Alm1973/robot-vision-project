@@ -4,7 +4,7 @@
 ## 1. Research Question & Framing
 
 **Working research question:**
-> Can a locally run VLM autonomously recover from task-disrupting situations — occlusion, environmental change, and abnormal/anomalous targets — through dynamic reasoning and adaptive camera repositioning, during an object verification task?
+> Can a locally run VLM autonomously recover from task-disrupting situations occlusion, environmental change, and abnormal/anomalous targets through dynamic reasoning and adaptive camera repositioning, during an object verification task?
 
 
 -  **occlusion**, **environmental change**, **anomaly** .
