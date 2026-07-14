@@ -61,8 +61,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# PASS CRITERIA (log in lab-notebook.md):
-#   - Camera opens without error at the expected index.
-#   - FPS is stable and acceptable (record the number).
-#   - detect_any() correctly finds and labels test objects under your
-#     normal lighting.
+
