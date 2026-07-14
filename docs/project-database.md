@@ -69,7 +69,7 @@ Potential alternatives to the entire pipeline, π0 (Physical Intelligence) and O
 
 ### 2.4 Simulation (Isaac Sim) — parked
 
-Isaac Sim/URDF import setup for Panda Arm simulation environment was tried but experienced significant tooling friction (version incompatibilities, no user interface tools, USD joint path discovery). Decision made: **paused**, in favor of using lighter OpenCV + VLM loop on real hardware. Isaac Sim will possibly be picked up at a later stage when core perception/reasoning/action loop becomes stable on real hardware.
+Isaac Sim/URDF import setup for Panda Arm simulation environment was tried but experienced significant tooling friction (version incompatibilities, no user interface tools, USD joint path discovery). Decision made: **paused**, in favor of using lighter OpenCV + VLM loop on real hardware.
 
 ---
 
