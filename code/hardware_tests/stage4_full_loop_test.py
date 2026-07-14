@@ -14,8 +14,7 @@ PORT = "/dev/cu.usbmodem1101"   # TODO(Shaurya): confirm your port
 BAUD = 115200
 CAM_INDEX = 0
 
-# Set to a command string (e.g. "ROTATE_BASE_LEFT_15") to skip the VLM call
-# and just prove the mechanical loop, per the mentor's suggestion.
+
 HARDCODE_ACTION = None
 
 ACTION_VOCAB = [
@@ -117,10 +116,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# PASS CRITERIA (log in lab-notebook.md):
-#   - At least one full cycle completes: detection -> decision -> serial
-#     command -> visible servo movement.
-#   - Even if the VLM's chosen action doesn't make logical sense yet, the
-#     DATA FLOW through every stage is proven. That's the milestone.
-#   - Record decide_time values -- this feeds Assignment 5's revised
-#     research question and prior timeout-calibration work.
+
