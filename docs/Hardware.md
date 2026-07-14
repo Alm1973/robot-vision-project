@@ -1,6 +1,6 @@
 # Hardware
 
-Photos of the assembled AVI hardware — 4-servo arm with camera mount, and the Arduino/PCA9685/UBEC power wiring.
+Photos of the assemblede hardware — 4-servo arm with camera mount and the Arduino+PCA9685+UBEC power wiring.
 
 ## Camera + servo arm
 
@@ -14,4 +14,4 @@ Logitech C270 webcam mounted at the top of the arm, driven by a stack of DS3218 
 
 ![Arduino, PCA9685, UBEC, and battery wiring](images/hardware-3.jpg)
 
-Arduino Uno (USB-connected to laptop) driving a PCA9685 servo driver over I2C, powered by a UBEC off a LiPo battery. Servo power and Arduino ground are tied together — see [`system-schematic.md`](system-schematic.md#physical-wiring-notes) for why this matters.
+Arduino Uno (USB-connected to laptop) driving a PCA9685 servo driver over I2C, powered by a UBEC off a LiPo battery. Servo power and Arduino ground are wiredvi together — see [`system-schematic.md`](system-schematic.md#physical-wiring-notes) 
