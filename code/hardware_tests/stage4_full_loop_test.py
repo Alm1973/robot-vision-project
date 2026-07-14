@@ -1,20 +1,5 @@
 """
-stage4_full_loop_test.py — Assignment 1(b), Stage 4: Full loop test
 
-Goal: prove data flows through the ENTIRE pipeline end-to-end at least once:
-
-    webcam frame -> OpenCV detects object + grid position
-                 -> grid label sent to VLM (Moondream via Ollama)
-                 -> VLM returns an action
-                 -> action sent to Arduino via serial
-                 -> servo moves
-
-If Moondream is too slow to iterate on, set HARDCODE_ACTION to a fixed
-command (e.g. "ROTATE_BASE_LEFT_15") to confirm the mechanical loop works
-without waiting on inference -- exactly what the mentor suggested.
-
-Only run this AFTER stages 1-3 pass individually. Use
-stage2_serial_test.ino (or your full avi_control.ino) on the Arduino.
 """
 
 import sys
