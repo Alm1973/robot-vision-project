@@ -58,7 +58,7 @@ def query_vlm(grid_label):
         if action in text:
             return action
     print(f"WARNING: VLM returned unrecognized text: {text!r}")
-    return "CONFIRM_TARGET"  # safe fallback
+    return "CONFIRM_TARGET"  
 
 
 def main():
@@ -70,7 +70,7 @@ def main():
     arduino = serial.Serial(PORT, BAUD, timeout=1)
     time.sleep(2)
     while arduino.in_waiting:
-        arduino.readline()  # drain READY banner
+        arduino.readline()  
 
     print("Full loop test running. Press ESC to quit.")
 
