@@ -1,15 +1,4 @@
 """
-hsv_calibrate.py — interactive HSV range finder
-
-Run this with your actual object in front of the actual camera, under your
-actual lighting. Drag the six sliders until only your object shows up white
-in the "mask" window (everything else black). Whatever numbers the sliders
-land on are your real calibrated values — copy them into detection.py's
-COLOR_RANGES for that color.
-
-Usage:
-    python hsv_calibrate.py
-Press ESC to quit and print the final values.
 """
 
 import cv2
