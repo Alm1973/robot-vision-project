@@ -27,7 +27,6 @@ Assignment 3. Covers: (a) what current research says about VLM spatial reasoning
 
 ## (b) Test Moondream directly — protocol + script
 
-The literature above describes *other* models at *other* scales; it doesn't substitute for testing your actual model on your actual setup. Run this yourself and log the results — I can't run your camera or Ollama instance for you.
 
 **Protocol:**
 1. Capture 3–5 still frames with a single object at different, known positions (e.g. left, center, right).
