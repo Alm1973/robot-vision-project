@@ -49,11 +49,11 @@ OpenCV (perception)
 
 ## Documentation
 
-- [`docs/project-database.md`](docs/project-database.md) — architecture decision record, servo calibration, benchmarks
-- [`docs/Hardware.md`](docs/Hardware.md) — hardware photos
-- [`docs/system-schematic.md`](docs/system-schematic.md) — full wiring + data flow diagram
-- [`docs/research-question.md`](docs/research-question.md) — revised research question, hypothesis, title options
-- [`docs/vlm-spatial-reasoning-review.md`](docs/vlm-spatial-reasoning-review.md) — literature review + OpenCV/VLM division of labor
-- [`docs/grid-testing-protocol.md`](docs/grid-testing-protocol.md) — full-grid detection accuracy test protocol
-- [`code/hardware_tests/`](code/hardware_tests/) — staged, isolated tests for closing the hardware loop
-- [`lab-notebook.md`](lab-notebook.md) — dated experiment log
+- [`docs/project-database.md`](docs/project-database.md) 
+- [`docs/Hardware.md`](docs/Hardware.md) 
+- [`docs/system-schematic.md`](docs/system-schematic.md) 
+- [`docs/research-question.md`](docs/research-question.md)
+- [`docs/vlm-spatial-reasoning-review.md`](docs/vlm-spatial-reasoning-review.md) 
+- [`docs/grid-testing-protocol.md`](docs/grid-testing-protocol.md) 
+- [`code/hardware_tests/`](code/hardware_tests/) 
+- [`lab-notebook.md`](lab-notebook.md) 
