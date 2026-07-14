@@ -1,12 +1,6 @@
 """
 
-    1. Capture 3-5 still frames with a known object at a known position
-       and save them under code/hardware_tests/frames/.
-    2. Fill in the calls at the bottom with your actual filenames and
-       ground-truth positions.
-    3. python moondream_spatial_probe.py
-    4. Copy the printed results into the table in
-       docs/vlm-spatial-reasoning-review.md.
+
 """
 
 import ollama
