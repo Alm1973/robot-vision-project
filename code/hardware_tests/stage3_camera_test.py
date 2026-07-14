@@ -1,17 +1,6 @@
 """
-stage3_camera_test.py — Assignment 1(b), Stage 3: Camera test
 
-Goal: confirm the Logitech C270 opens in OpenCV, captures usable frames,
-and that detection.py (Assignment 4's upgraded pipeline) finds objects
-in the live feed. No Arduino, no VLM -- perception only.
-
-Usage:
-    python stage3_camera_test.py
-
-Prints FPS and detection status every frame; press ESC to quit.
-Log the observed FPS and any issues (frame drops, focus problems,
-lighting sensitivity) in lab-notebook.md -- the mentor specifically
-asked for this.
+Prints FPS and detection status every frame
 """
 
 import time
