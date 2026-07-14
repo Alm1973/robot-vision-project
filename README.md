@@ -19,6 +19,12 @@ Can a locally-run vision-language model, operating within a hybrid perception-re
 - PCA9685 16-Channel PWM Servo Driver
 - UBEC 
 
+## Hardware Photos
+
+| | | |
+|---|---|---|
+| ![Hardware photo 1](docs/images/hardware-1.jpg) | ![Hardware photo 2](docs/images/hardware-2.jpg) | ![Hardware photo 3](docs/images/hardware-3.jpg) |
+
 ## System Architecture
 
 The system uses a **hybrid OpenCV + VLM pipeline**: OpenCV handles deterministic perception (HSV color masking → centroid tracking) and drives the arm directly while tracking is healthy; a locally-run VLM (Qwen2.5-VL:3B via Ollama) is only invoked for higher-level recovery reasoning when tracking is lost. See [`docs/project-database.md`](docs/project-database.md) for the full architecture decision record, servo calibration data, benchmarking results, and design rationale.
